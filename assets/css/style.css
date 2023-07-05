@@ -1,56 +1,75 @@
+body *{
+  margin: 0;
+  border: 0;
+}
 
 nav{
   font-size: large;
 }
 
-  
-
   h4 {
     text-align:left; 
     }
 
-#Inicio h1{
+   #Inicio h3 {
+      font-weight: bold;
+          }
+    
+    #inicio {
+      position: relative;
+      width: 100%;
+      height: 500px;
+      background: url("../img/ammplio-arquitectos-madrid-1407.jpg") no-repeat center/cover;
+    }
+    
+    #inicio h3 {
+      position: absolute;
+      top: 50%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+    }
+    
 
-        color: rgb(252, 252, 252) !important;
-        text-align: Left;
-        padding-right: 300px;
-        font-weight: bold;
-        font-size: 30px;
-}
-#Presentacion{
+#presentacion{
         width: 100%;
-        height: 400px;
-        background-color: antiquewhite;
+        height: auto;
+        background-color: #D6C8B8;
         color: rgb(0, 0, 0);
         text-align: Left;
-        padding-top: 50px;
-        padding-right: 150px;
-        font-size: 20px;
+      /*  padding-top: 50px;
+        padding-left: 120px;*/
+        font-size: 16px;
         font-weight: lighter;
   }    
   
-  #Resumen{
+  #experiencia{
     width: 100%;
     height: auto;
     background-color:black;
     color: white;
-    text-align: Left;
+    /*text-align: Left;
     padding-top: 50px;
-    padding-right: 150px;
+    padding-right: 150px;*/
     font-size: 16px;
     font-weight: lighter;
 
       
   }
+  #experiencia li{
 
-  #Educacion{
+    font-size: 14px;
+    font-weight: lighter;
+  }
+
+  #educacion{
     width: 100%;
-    height: auto;
+    height: 500px;
     background-color:rgb(102, 94, 94);
     color: white;
-    text-align: Left;
-    padding-top: 50px;
-    padding-right: 150px;
+    /*text-align: Left;*/
+   padding-top: 100px;
+    /*padding-right: 150px;*/
     font-size: 16px;
     font-weight: lighter;
 
